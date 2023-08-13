@@ -1,5 +1,10 @@
 #include "main.h"
 
+/*
+* brkdown_args - splits arguments with _strtok()
+* @buffer: the array of arguments
+* Return: 0 if failed
+*/
 int brkdown_args(char *buffer)
 {
     char *temp;

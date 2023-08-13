@@ -1,5 +1,11 @@
 #include "main.h"
 
+/*
+* main -Entry point
+* @arg: number of argument
+* @av: array of arguments
+* Return: always 0
+*/
 static char *ARG1;
 
 int main(int arg, char **av)

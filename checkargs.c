@@ -1,5 +1,11 @@
 #include "main.h"
 
+/*
+* checkargs - this check arguments passed
+* @arg: number of args passed
+* @ac: array of args 
+* @exe: for executable
+*/
 int checkargs(int arg, char **ac, int *exe)
 {
     int temp = STDIN_FILENO;

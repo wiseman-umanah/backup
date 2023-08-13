@@ -1,5 +1,11 @@
 #include "main.h"
 
+/*
+* execute_file - execites a program
+* @buffer: the buffer
+* buff_size: size of buffer
+* Return: returns 0 if failed. 1
+*/
 int execute_file(char **buffer, int buff_size)
 {
     pid_t pid = fork();
